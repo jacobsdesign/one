@@ -9,14 +9,14 @@ desctiption: "HORIZON"
   <div class="testimonial-container">
     <div class="row">
       <div class="col-md-12">
-      <h1>"{{item.year}}"</h1>
+      <h1>{{item.year}}</h1>
       </div>
     </div>
     <div class="row">
       {% for item in site.data.testimonials %}
       <div class="col-4 review border rounded mb-4">
         <div class="row">
-          <div class="col-4 col-md-4 text-center">
+          <div class="center">
           <a href="{{item.link}}">
             <img width="250" height="250" class="team-image rounded-circle" src="{{item.image | relative_url}}"
               alt="{{item.name}}">
