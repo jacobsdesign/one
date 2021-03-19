@@ -14,7 +14,7 @@ desctiption: "HORIZON"
     </div>
     <div class="row">
       {% for item in site.data.testimonials %}
-      <div class="col-12 review border rounded mb-4">
+      <div class="col-4 review border rounded mb-4">
         <div class="row">
           <div class="col-4 col-md-4 text-center">
           <a href="{{item.link}}">
@@ -27,12 +27,6 @@ desctiption: "HORIZON"
         </div>
       </div>
       {% endfor %}
-        <h3 class="name font-weight-bold mb-2">{{item.name}}</h3>
-          <div class="row">
-      <div class="col-md-12">
-      <h1>"{{item.year}}"</h1>
-      </div>
-    </div>
     </div>
   </div>
 </div>
