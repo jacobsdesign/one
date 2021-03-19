@@ -5,7 +5,7 @@
 	.testimonial-box {
 		max-width: 700px;
 		margin: 0 auto;
-		padding: 40px 50px;
+		padding: 40px 0;
 		
 		@include media-query($on-palm) {
 			max-width: 80%;
