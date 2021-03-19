@@ -14,8 +14,8 @@ desctiption: "HORIZON"
     </div>
     <div class="row">
       {% for item in site.data.testimonials %}
-      <div class="col-4 review border rounded mb-4">
-        <div class="row">
+      <div class="col-4">
+        <div class="center">
           <div class="center">
           <a href="{{item.link}}">
             <img width="250" height="250" class="team-image rounded-circle" src="{{item.image | relative_url}}"
