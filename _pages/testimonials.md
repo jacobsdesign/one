@@ -9,7 +9,6 @@ desctiption: "HORIZON"
   <div class="testimonial-container">
     <div class="row">
       <div class="col-md-12">
-        <h6>{{item.name}}</h6>
       </div>
     </div>
     <div class="row">
@@ -30,9 +29,9 @@ desctiption: "HORIZON"
         </div>
       </div>
       {% endfor %}
+        <h3 class="name font-weight-bold mb-2">{{item.name}}</h3>
           <div class="row">
       <div class="col-md-12">
-        <h6>{{item.name}}</h6>
       </div>
     </div>
     </div>
