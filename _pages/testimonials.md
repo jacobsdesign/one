@@ -1,15 +1,15 @@
 ---
 layout: page
-title: Testimonials
+title: HORIZON
 permalink: /testimonials/
-desctiption: "A simple testimonials page where you can show reviews on jekyll theme."
+desctiption: "HORIZON"
 ---
 
 <div id="team" class="testimonials">
   <div class="testimonial-container">
     <div class="row">
       <div class="col-md-12">
-        <h6 class="double-u">{{page.title}}</h6>
+        <h6>{{page.title}}</h6>
       </div>
     </div>
     <div class="row">
@@ -21,17 +21,6 @@ desctiption: "A simple testimonials page where you can show reviews on jekyll th
               alt="{{item.name}}">
             <h4 class="name font-weight-bold mb-2">{{item.name}}</h4>
             <p class="position"><small>{{item.designation}}</small></p>
-            <ul class="review-social">
-              {% if item.twitter %}
-              <li><a href="{{item.twitter}}"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-              {% endif %}
-              {% if item.facebook %}
-              <li><a href="{{item.facebook}}"><i class="fa fa-facebook-official fa-2x"></i></a></li>
-              {% endif %}
-              {% if item.linkedin %}
-              <li><a href="{{item.linkedin}}"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
-              {% endif %}
-            </ul>
           </div>
           <div class="col-12 col-md-8 font-italic my-auto lead">
             {{item.comment}}
@@ -39,6 +28,11 @@ desctiption: "A simple testimonials page where you can show reviews on jekyll th
         </div>
       </div>
       {% endfor %}
+          <div class="row">
+      <div class="col-md-12">
+        <h6>{{page.title}}</h6>
+      </div>
+    </div>
     </div>
   </div>
 </div>
