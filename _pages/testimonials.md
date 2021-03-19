@@ -1,11 +1,11 @@
 ---
 layout: page
 title: HORIZON
-permalink: /testimonials/
+permalink: /Horizon/
 desctiption: "HORIZON"
 ---
 
-<div id="team" class="testimonials">
+<div id="team" class="Horizon">
   <div class="testimonial-container">
     <div class="row">
       <div class="col-md-12">
