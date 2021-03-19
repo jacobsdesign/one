@@ -18,7 +18,7 @@ desctiption: "HORIZON"
         <div class="row">
           <div class="col-12 col-md-4 text-center">
           <a href="{{item.link}}">
-            <img width="150" height="150" class="team-image rounded-circle" src="{{item.image | relative_url}}"
+            <img width="250" height="250" class="team-image rounded-circle" src="{{item.image | relative_url}}"
               alt="{{item.name}}">
             <h4 class="name font-weight-bold mb-2">{{item.name}}</h4>
             <p class="position"><small>{{item.designation}}</small></p>
