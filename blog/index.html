@@ -1,0 +1,40 @@
+---
+layout: page
+title: Articles
+description: Find all about avocado jekyll theme posts here.
+---
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8">
+      {% for post in paginator.posts %}
+      <a class="nostyle" href="{{post.url | relative_url }}">
+        <div class="row cards blog-list rev">
+          <div class="col-md-4 image" style="background-image: url({{post.image | relative_url }});">
+          </div>
+          <div class="col-md-8 content">
+            <h3 class="blog-index-title">{{post.title}}</h3>
+            <p class="description">{{post.content | strip_html | truncate: 190 }}</p>
+          </div>
+        </div>
+      </a>
+
+      {% endfor %}
+    </div>
+    <div class="col-lg-4 blog-sidebar">
+  <ul class="caption">
+    {% assign postsBySubtitle =
+    site.categories.standard | group_by:"subtitle" %}
+    {% for item in postsBySubtitle %}
+    <li class="" style="margin-bottom:5px">
+      {% for post in item.items reversed limit:1 %}
+      <a href="{{ post.url }}">{{item.name}}</a>
+      {% endfor %}
+    </li>
+    {% endfor %}
+  </ul>
+
+  </div>
+  {% include pagination.html %}
+</div>
