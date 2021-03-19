@@ -16,7 +16,7 @@ desctiption: "HORIZON"
       {% for item in site.data.testimonials %}
       <div class="col-4">
         <div class="row" style="center">
-          <div class="center">
+          <div>
           <a href="{{item.link}}">
             <img width="250" height="250" class="team-image rounded-circle" src="{{item.image | relative_url}}"
               alt="{{item.name}}">
