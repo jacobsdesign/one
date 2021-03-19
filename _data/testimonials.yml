@@ -1,8 +1,8 @@
-- name: Jane Doe
-  comment: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!
+- name: Innovating Pedagogy 2017
+  year: 2017
   image: /assets/images/rowan-chestnut-175871-unsplash.jpg
-  linkedin: '#'
+  link: https://iet.open.ac.uk/file/innovating-pedagogy-2017-kr.pdf
   
-- name: John Doe
-  comment: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga distinctio quod velit non ut est, vel doloribus officia eius natus.
+- name: 2017 Library Edition
+  year: 2017
   image: /assets/images/brooke-cagle-274465-unsplash.jpg
